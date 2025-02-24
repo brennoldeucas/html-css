@@ -1,0 +1,176 @@
+@charset "UTF-8";
+*{
+  /*height: 100%;*/
+}
+
+body{
+    background-color: rgb(73, 240, 73);  
+    font-family: Arial, Helvetica, sans-serif;
+    border: 10px solid rgb(8, 44, 1);
+    margin: 0px 0px 0px 0px;
+}
+
+
+
+h1{
+    margin: 20px 0px 0px 0px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(8, 44, 1);
+    height: 70px;
+    color: white;
+    text-decoration: underline;
+}
+
+header{
+    background-color: rgb(8, 44, 1);
+    color: black;
+    margin: 0px 0px 0px 0px;
+    border: 5px dashed rgb(8, 44, 1);
+}
+
+nav{
+    text-align: left;
+    color: white;
+    margin: 5px;
+    display: inline-block;
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+
+.links:active{
+    color: blueviolet;
+    text-decoration: underline;
+    
+}
+
+a:visited{
+    color: black;
+}
+
+a:hover{
+    background-color: rgb(151, 150, 150);
+    transition-duration: 0.5s;
+}
+
+#ptitulo{
+    color: white;
+    text-align: center;
+    display: block;
+    font-size: 1.5em;
+}
+
+main{
+    background-color: white;
+    margin: auto;
+    border-radius: 20px 0px 20px 0px;
+    box-shadow: ;
+
+    max-width: 1200px;
+    min-width: 320px;
+}
+
+p{
+    margin: 0px 20px 0px 20px;
+    text-align: justify;
+    font-weight: 600;
+}
+
+#mais-claro{
+    font-weight: normal;
+    font-size: 0.9em;
+    margin: 5px 0px 0px 20px;
+    
+}
+
+.link::after{
+    content: ' 🔗';
+}
+
+.link{
+    text-decoration: none;
+}
+
+h2{
+    margin: 20px 20px 20px 20px;
+    font-size: 2em;
+    text-align: center;
+    text-decoration: underline rgba(16, 75, 4, 0.938);
+    color: rgb(6, 81, 6);
+}
+
+img{
+    width: 100%; 
+    margin: 20px 0px 20px 0px;
+    border-radius: 10px;
+
+}
+
+aside{
+    margin: 5px 0px 10px 10px;
+    font-size: 0.7em;
+    font-weight: normal;
+}
+
+.versoes::before{
+    content: '→';
+}
+
+.versoes::after{
+    content: '←';
+}
+
+.versoes{
+    font-size: 1.7em;
+}
+
+#youtube{
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+   
+}
+
+footer{
+    background-color: rgba(0, 0, 0, 0.638);
+    color: white;
+}
+
+#fechamento{
+    margin: 0px 0px 0px 0px;
+    font-weight: bold;
+    font-size: 0.9em;
+    text-align: center;
+}
+
+div{
+    width: 400;
+    height: 400;
+    background-color: lightgray;
+    border-radius: 20px;
+    margin: 0px 300px 0px 300px;
+}
+
+#lista{
+    columns: 2;
+    list-style-type: \2705\00A0\00A0;  
+    background-color: bisque;
+    width: 800px;
+    border-radius: 10px;
+    margin: auto;
+}
+
+h3{
+    margin: auto;
+    background-color: rgb(6, 81, 6);
+    width: 800px;
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+

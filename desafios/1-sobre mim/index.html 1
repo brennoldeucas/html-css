@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico1" type="image/x-icon">
+    <title>brenno de Lucas</title>
+    <style>
+    body{
+        background-color: rgb(189, 189, 226);
+    } 
+    mark{
+        background-color: rgb(229, 10, 10);
+    }
+    </style> 
+</head>
+<body>
+<h1><ins><em>Brenno de Lucas de Oliveira Mendes</em></ins></h1> 
+<h2>esse sou eu:</h2>
+<img src="IMG_20241218_223432_1.jpg" alt="Eu e minha namorada maravilhosa">
+<p>(<small>a direita dando um beijo bem gostoso na <strong><ins><mark>minha namorada maravilhosa</small></mark>!!</ins></strong>)</p>
+
+<h4>Eu sou o brenno eu tenho 17 anos,estou prestes a fazer 18 no dia 13/03/2025.Eu sou muito feliz pois tenho uma namorada incrivel que me apoia em tudo e tambem e meu maior porto seguro.Eu sou da area de ti porque e algo que eu gosto desde muito pequeno e se eu me esforçar,sei que posso ser bem remunerado para poder dar uma vida incrivel para a familia que quero construir com a minha princesa.</h4>
+
+<h2>formas de contato:</h2>
+
+<ul type="square">
+<li><a href="https://www.youtube.com/@flowff1753" target="_blank" rel="next">Youtube</a></li>
+<li><a href="https://www.instagram.com/" target="_blank" rel="next">Instagram</a></li> 
+<li><a href="https://www.whatsapp.com/?lang=pt_BR" target="_blank" rel="next">whattssap=(21) 976112630</a></li>
+<li>
+    <p><a href="https://www.youtube.com/watch?v=6t-isrhWzzw" target="_blank" rel="next">um pouco do meu trabalho</a></p>
+</li>
+
+<li><a href="../2/index.html" target="_self" rel="prev">volte para as tags</a></li>
+
+
+
+
+    
+</ul>
+
+
+</body>
+</html>

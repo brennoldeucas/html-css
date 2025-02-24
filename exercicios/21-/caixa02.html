@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        nav{
+            background-color: rgb(161, 161, 161);
+            padding: 3px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.636);
+           
+
+        }
+
+        nav > a {
+            text-decoration: none;
+            font-weight: bold;
+            color: white;
+            margin: 30px;
+        }
+
+        nav:hover{
+            text-decoration: underline;
+            
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: gray;
+            margin: 0px;
+        }
+
+        h1{
+      box-shadow: 2px 1px 14px 6px black;            
+        }
+
+        header{
+            background-color: white;
+            padding: 10px; 
+            margin: 15px; 
+            border: 15px solid rgba(0, 0, 0, 0.745);
+            outline: 5px dashed blueviolet;
+            border-radius: 20px;
+            
+        }
+
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.515);
+         }
+
+        article{
+            background-color: lightgray;
+            padding: 5px;
+            border-radius: 10px;
+        }
+
+        article >aside{
+            background-color: rgb(142, 137, 137);
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+
+        footer > p {
+           margin: 0px; 
+        }
+
+        #um{
+            background-color: rgb(210, 170, 170);
+            padding: 5px;
+            border-radius: 10px;
+        }
+        
+        #um > aside {
+            background-color: rgba(137, 43, 226, 0.615);
+            font-weight: bold ;
+        }
+
+        #bola{
+          height: 100px;
+          width: 100px;
+            background-color: white;
+          margin: 10px;
+          border-radius: 50%;  
+        }
+
+      
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+
+    </header>
+
+    <main>
+        <section id="assuntos">
+            <article id="um"> 
+                <h2>futebol,politica e clima</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora voluptates, sunt fugit perspiciatis corrupti nulla velit vitae eum earum, quo excepturi similique sed odit soluta quos aliquam suscipit nam? Provident?</p>
+                <aside>
+                    bn.
+                </aside>
+            </article>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>noticias</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem eligendi sint quos molestias, dolore quod qui architecto perspiciatis vero fugit. Doloremque facilis debitis voluptatem accusamus quasi laborum similique aspernatur eum!</p>
+               <aside>
+                    <p>artigo escrito por BN</p>
+               </aside> 
+            </article>
+            <article>
+
+            </article>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>desenvolvido pelo BN</p>
+    </footer>
+
+    <div
+    id="bola"></div>
+    
+</body>
+</html>

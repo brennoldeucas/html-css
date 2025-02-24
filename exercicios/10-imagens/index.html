@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>midias em html5</title>
+</head>
+<body>
+    <h1>imagens dinamicas</h1>
+    <p>tente abrir esse site em varios dispositivos diferentes ou aumente e diminua o tamanho do seu navegador</p>
+
+    <picture>
+    <source media="(max-width: 700px)" srcset="imagens/fotoP.png" type="image/png">
+    <source media="(max-width: 1050px)" srcset="imagens/fotoM.png" type="image/png">
+     <img src="imagens/fotoG.png" alt="imagem flexivel">   
+    </picture>
+    <h1>reproduzindo audio</h1>
+    <p>vamos aprender a reproduzir audio em html5.
+    </p>
+    <audio preload="auto"autoplay controls loop>
+        <source src="midias/AhaTik_som original_1725658941755.mp3" type="audio/mpeg">
+    </audio>
+    <audio preload="auto"autoplay controls loop>
+        <source src="midias/AhaTik_som original_1731083554953.mp3" type="audio/mpeg">
+        <source src="midias/AhaTik_som original_1725658941755.ogg" type="audio/ogg">
+        <source src="midias/AhaTik_som original_1731083554953.wav" type="audio/wav">
+        <p>infelizmente seu navegador nao consegue reproduzir audio</p>
+        <a href="midias/AhaTik_som original_1725658941755.mp3">clique aqui para baixar o arquivo MP3</a>
+
+    </audio>
+<br>
+    <a href="midias/AhaTik_som original_1725658941755.mp3">clique para baixar audio 1</a>
+<hr>
+    <a href="midias/AhaTik_som original_1731083554953.mp3">clique para baixar audio 2</a>
+    
+</body>
+</html>

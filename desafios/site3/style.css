@@ -141,6 +141,16 @@ h2{
 
 }
 
+footer{
+    margin-top: 10px;
+}
+
+footer > p{
+    background-color: #2C3532;
+    color: var(--cor5);
+    text-align: center;
+}
+
 
 
 
